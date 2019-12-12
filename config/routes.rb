@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   namespace :api do
-    resources :values, only: [:new, :edit]
+    resources :values, except: [:new, :edit]
   end
 end

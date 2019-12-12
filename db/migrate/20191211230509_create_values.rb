@@ -1,4 +1,4 @@
-class CreateValues < ActiveRecord::Migration[6.0]
+class CreateValues < ActiveRecord::Migration[5.1]
   def change
     create_table :values do |t|
       # DC1
