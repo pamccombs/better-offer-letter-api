@@ -1,9 +1,9 @@
 class Value < ApplicationRecord
     before_validation :set_defaults
-    serialize :benefits
-    after_initialize do |benefit|
-      benefit.benefits= [] if benefit.benefits == nil
-    end
+    # serialize :benefits
+    # after_initialize do |benefit|
+    #   benefit.benefits= [] if benefit.benefits == nil
+    # end
 
     
 
